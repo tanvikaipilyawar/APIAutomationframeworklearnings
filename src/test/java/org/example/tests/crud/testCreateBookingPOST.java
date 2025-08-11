@@ -22,6 +22,9 @@ public class testCreateBookingPOST extends BaseTest {
 @Description("#TC1-Verifying that booking can be created")
       public void testCreateBooking(){
             requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
+
+            String payload = payloadManager.createPayloadAsString();
+            System.out.println("payload being sent"+payload);
             response= RestAssured
                     .given(requestSpecification)
                     .when().body(payloadManager.createPayloadAsString()).post();
