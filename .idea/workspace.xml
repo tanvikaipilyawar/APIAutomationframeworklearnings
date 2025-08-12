@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49ad0f90-6566-40a1-9480-1495ea213f29" name="Changes" comment="huhhi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/ddt/vwoLoginAPITTC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/PropertyReaderOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/utilsExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/ddt/VWOLoginPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/extendDemo/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/extendDemo/TestNGListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/Integration/TCIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/Integration/TCIntegration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/testCreateBookingPOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/testCreateBookingPOST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/ddt/vwoLoginAPITTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/ddt/vwoLoginAPITTC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/Tanvi/IdeaProjects/APIAutomation6/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tanvi/IdeaProjects/APIAutomation6&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Tanvi/IdeaProjects/APIAutomation6/testng.xml.executor": "Run",
+    "TestNG.vwoLoginAPITTC.executor": "Run",
+    "TestNG.vwoLoginAPITTC.testVWOLogin.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Tanvi/IdeaProjects/APIAutomation6",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="TestNG.vwoLoginAPITTC.testVWOLogin">
     <configuration name="C:/Users/Tanvi/IdeaProjects/APIAutomation6/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation6" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -79,8 +76,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vwoLoginAPITTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.ddt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.ddt" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.ddt.vwoLoginAPITTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vwoLoginAPITTC.testVWOLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.ddt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.ddt" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.ddt.vwoLoginAPITTC" />
+      <option name="METHOD_NAME" value="testVWOLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.vwoLoginAPITTC.testVWOLogin" />
+        <item itemvalue="TestNG.vwoLoginAPITTC" />
         <item itemvalue="TestNG.C:/Users/Tanvi/IdeaProjects/APIAutomation6/testng.xml" />
       </list>
     </recent_temporary>
